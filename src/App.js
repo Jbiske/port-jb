@@ -1,12 +1,12 @@
 
 import './styles.css';
 import Navbar from './Navbar';
-import { Component } from 'react';
+
 import About from './pages/About';
 import Works from './pages/Works';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
-import {Route, Routes} from "react-router-dom"
+
 
 
 
@@ -34,6 +34,8 @@ function App() {
   }
   return (<>
  <Navbar/>
+
+ <Home />
    {component}
   
   

@@ -35,7 +35,6 @@ function App() {
   return (<>
  <Navbar/>
 
- <Home />
    {component}
   
   
